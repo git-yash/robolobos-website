@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function RoboNavbar() {
     return (
-        <Navbar bg="dark" expand="lg" sticky="top">
+        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
             <Container>
                 <Navbar.Brand href="/" style={{color:"white"}}>
                     <img
@@ -21,7 +21,7 @@ function RoboNavbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <NavDropdown title="Teams" id="basic-nav-dropdown" menuVariant="dark" style={{color:"white"}}>
+                        <NavDropdown title={<span style={{color:"white"}}>Teams</span>} id="basic-nav-dropdown" menuVariant="dark" style={{color:"white"}}>
                             <NavDropdown.Item href="/Teams/FRC" style={{color:"white"}}>
                                 FRC
                             </NavDropdown.Item>
@@ -32,7 +32,7 @@ function RoboNavbar() {
                         </NavDropdown>
                         <Nav.Link href="/Volunteer" style={{color:"white"}}>Volunteer</Nav.Link>
                         <Nav.Link href="/Calender" style={{color:"white"}}>Calender</Nav.Link>
-                        <NavDropdown title="Support Us" id="basic-nav-dropdown" menuVariant="dark">
+                        <NavDropdown title={<span style={{color:"white"}}>Support Us</span>} id="basic-nav-dropdown" menuVariant="dark">
                             <NavDropdown.Item href="/Support-Us/Booster" style={{color:"white"}}>
                                 Booster
                             </NavDropdown.Item>

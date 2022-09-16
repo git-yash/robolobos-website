@@ -2,7 +2,11 @@ import * as React from "react";
 
 const HomePage = () => {
     return (
-        <h1>Home Page!</h1>
+        <>
+            <div>
+                <h1>CPHS Robotics!</h1>
+            </div>
+        </>
     );
 }
 
