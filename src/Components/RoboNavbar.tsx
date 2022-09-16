@@ -45,7 +45,7 @@ function RoboNavbar() {
                                 Donate
                             </NavDropdown.Item>
                             <NavDropdown.Divider/>
-                            <NavDropdown.Item to="/Support-Us/Fundraising">
+                            <NavDropdown.Item href="/Support-Us/Fundraising">
                                 Fundraising
                             </NavDropdown.Item>
                         </NavDropdown>

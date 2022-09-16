@@ -17,7 +17,7 @@ const App = () => {
   return (
       <>
           <Router>
-              <RoboNavbar />
+              <RoboNavbar/>
               <Routes>
                   <Route path='/' element={<HomePage />} />
                   <Route path='/Calender' element={<CalendarPage/>} />
