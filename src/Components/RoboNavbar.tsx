@@ -8,7 +8,7 @@ function RoboNavbar() {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#HomePage">
+                <Navbar.Brand href="/">
                     <img
                         src="/logo192.png"
                         width="30"
@@ -22,16 +22,34 @@ function RoboNavbar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown title="Teams" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/#/Screens/FRCPage">
+                            <NavDropdown.Item href="/Teams/FRC">
                                 FRC
                             </NavDropdown.Item>
                             <NavDropdown.Divider/>
-                            <NavDropdown.Item href="/#/Screens/FTCPage">
+                            <NavDropdown.Item href="/Teams/FTC">
                                 FTC
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#VolunteerPage">Volunteer</Nav.Link>
-                        <Nav.Link href="#CalenderPage">Calender</Nav.Link>
+                        <Nav.Link href="/Volunteer">Volunteer</Nav.Link>
+                        <Nav.Link href="/Calender">Calender</Nav.Link>
+                        <NavDropdown title="Support Us" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/Support-Us/Booster">
+                                Booster
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider/>
+                            <NavDropdown.Item href="/Support-Us/Store">
+                                Store
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider/>
+                            <NavDropdown.Item href="/Support-Us/Donate">
+                                Donate
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider/>
+                            <NavDropdown.Item to="/Support-Us/Fundraising">
+                                Fundraising
+                            </NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href="/Resources">Resources</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
