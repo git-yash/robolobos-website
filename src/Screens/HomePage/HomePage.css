@@ -6,3 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.sponsorCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+}

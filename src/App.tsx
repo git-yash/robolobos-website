@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import RoboNavbar from "./Components/RoboNavbar";
+import RoboNavbar from "./Components/RoboNavbar/RoboNavbar";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import HomePage from "./Screens/HomePage/HomePage";
 import CalendarPage from "./Screens/CalendarPage/CalendarPage";
