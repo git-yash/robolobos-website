@@ -1,0 +1,30 @@
+button {
+    position: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    color: white;
+    background-color: #282c34;
+    border: #282c34;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color: #282c34;
+}
+
+.centerContainer {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-25%, -25%);
+}

@@ -1,6 +1,6 @@
 .parallax {
-    background-image: url("../../../public/roboticsLogo.png");
-    min-height: 700px;
+    background-image: url("../../../public/largeRoboticsLogo.jpg");
+    min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,10 +14,10 @@
     font-size: 100px;
     color: white;
     transform: translate(0%, 180%);
-    background-color: black;
+    background-color: #12471A;
 }
 
-h1, p{
+h1, h2, h3, p {
     font-family: "Lucida Console", sans-serif;
 }
 
@@ -29,4 +29,25 @@ h1, p{
     width: 100%;
     align-items: center;
     padding-top: 50px;
+    background-color: #12471A;
+}
+
+.sponsorH1 {
+    text-align: center;
+    color: white;
+    padding: 0;
+    font-size: 5px;
+    text-anchor: middle;
+    vertical-align: text-top;
+    background-color: black;
+}
+
+.sponsorDiv {
+    height: 800px;
+    background-color: #12471A;
+}
+
+.aboutDiv {
+    height: 1000px;
+    background-color: #12471A;
 }

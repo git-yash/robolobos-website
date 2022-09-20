@@ -3,6 +3,18 @@
   background-size: cover;
 }
 
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  overscroll-behavior: auto;
+  overflow: auto;
+  height: 100%;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
