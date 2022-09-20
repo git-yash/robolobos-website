@@ -1,10 +1,24 @@
 .parallax {
     background-image: url("../../../public/roboticsLogo.png");
-    min-height: 500px;
+    min-height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax h1 {
+    text-align: center;
+    text-align-all: center;
+    text-anchor: middle;
+    font-size: 100px;
+    color: white;
+    transform: translate(0%, 180%);
+    background-color: black;
+}
+
+h1, p{
+    font-family: "Lucida Console", sans-serif;
 }
 
 .sponsorCardContainer {

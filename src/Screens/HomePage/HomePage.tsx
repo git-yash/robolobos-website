@@ -3,11 +3,12 @@ import "./HomePage.css";
 import ProfileCard from "../../Components/ProfileCard/ProfileCard";
 
 const HomePage = () => {
+
     return (
         <>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <body>
-                <div className="parallax"></div>
+                <div className="parallax"> <h1> The CPHS Robotics Team</h1> </div>
                 <div style={{height:1000, backgroundColor:"black"}}>
                     <h1 style={{textAlign: 'center', color: 'white', paddingTop: 20}}>Sponsors</h1>
                     <div className="sponsorCardContainer">
