@@ -11,7 +11,7 @@ const HomePage = () => {
             <body>
                 <div className="parallax"> <h1> The CPHS Robotics Team</h1>
 
-                    <div style={{padding: 220}}></div>
+                    <div style={{padding: 240}}></div>
 
                     <h1 className="sponsorH1" style={{fontSize: 53}}>Sponsors</h1>
                     <div className="sponsorDiv">
@@ -31,7 +31,24 @@ const HomePage = () => {
                     <div style={{padding: 100}}></div>
 
                     <div className="aboutDiv">
-                        <h1 style={{textAlign: 'center', color: 'white', paddingTop: 20, fontSize: 52}}>About</h1>
+                        <h1 className="sponsorH1" style={{fontSize: 53}}>About</h1>
+                        <div style={{padding: 100}}></div>
+                        <h3 style={{textAlign: 'center', color: 'white', fontSize: 32}}>
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                            Some very cool text about our brand and stuff
+                        </h3>
                     </div>
 
                     <div style={{padding: 100}}></div>
