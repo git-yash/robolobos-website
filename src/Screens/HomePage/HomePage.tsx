@@ -4,6 +4,28 @@ import ProfileCard from "../../Components/ProfileCard/ProfileCard";
 
 const HomePage = () => {
 
+    /*
+
+    TODO:
+
+     Navbar:
+        - underneath support us booster, donate, volunteer, sponsor
+        - Store tab on main navbar
+
+    Qgiv api?
+
+    put business sponsors on home page
+
+    image carousel on home page
+
+    fundraiser in replace of sponsor cards
+
+    home page is about us
+
+    when fundrasing starts we change homepage / have pop ups
+
+     */
+
     return (
         <>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
