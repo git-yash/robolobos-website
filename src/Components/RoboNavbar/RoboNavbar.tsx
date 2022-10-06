@@ -7,9 +7,9 @@ import './RoboNavbar.css'
 
 function RoboNavbar() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+        <Navbar bg="#09240d" variant="dark" className="Navbar" expand="lg" sticky="top">
             <Container>
-                <Navbar.Brand href="/" style={{color: "white", fontSize:35, fontFamily:"Lucida Console"}}>
+                <Navbar.Brand href="/" className="FontStuff1">
                     <img
                         src="/roboticsLogo.png"
                         width="50"
@@ -22,46 +22,47 @@ function RoboNavbar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="collapse navbar-collapse justify-content-end margin-left">
-                        <NavDropdown title={<span style={{color: "white", fontSize:20, fontFamily:"Lucida Console"}}>Teams</span>}
+                        <NavDropdown title={<span className="FontStuff">Teams</span>}
                                      id="basic-nav-dropdown"
+                                     className="NavDropdown"
                                      menuVariant="dark">
-                            <NavDropdown.Item href="/Teams/FRC" style={{color: "white", fontFamily:"Lucida Console"}}>
+                            <NavDropdown.Item href="/Teams/FRC" className="FontStuff">
                                 FRC
                             </NavDropdown.Item>
                             <NavDropdown.Divider/>
-                            <NavDropdown.Item href="/Teams/FTC" style={{color: "white", fontFamily:"Lucida Console"}}>
+                            <NavDropdown.Item href="/Teams/FTC" className="FontStuff">
                                 FTC
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/Volunteer" style={{color: "white", fontSize:20, fontFamily:"Lucida Console"}}>
+                        <Nav.Link href="/Volunteer" className="FontStuff">
                             Volunteer</Nav.Link>
-                        <Nav.Link href="/Calender" style={{color: "white", fontSize:20, fontFamily:"Lucida Console"}}>
+                        <Nav.Link href="/Calender" className="FontStuff">
                             Calender</Nav.Link>
-                        <NavDropdown title={<span style={{color: "white", fontSize:20, fontFamily:"Lucida Console"}}>
+                        <NavDropdown title={<span className="FontStuff">
                             Support Us</span>} id="basic-nav-dropdown"
                                      menuVariant="dark">
                             <NavDropdown.Item href="/Support-Us/Booster"
-                                              style={{color: "white", fontFamily:"Lucida Console"}}>
+                                              className="FontStuff">
                                 Booster
                             </NavDropdown.Item>
                             <NavDropdown.Divider/>
                             <NavDropdown.Item href="/Support-Us/Store"
-                                              style={{color: "white", fontFamily:"Lucida Console"}}>
+                                              className="FontStuff">
                                 Store
                             </NavDropdown.Item>
                             <NavDropdown.Divider/>
                             <NavDropdown.Item href="/Support-Us/Donate"
-                                              style={{color: "white", fontFamily:"Lucida Console"}}>
+                                              className="FontStuff">
                                 Donate
                             </NavDropdown.Item>
                             <NavDropdown.Divider/>
                             <NavDropdown.Item href="/Support-Us/Fundraising"
-                                              style={{color: "white", fontFamily:"Lucida Console"}}>
+                                              className="FontStuff">
                                 Fundraising
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/Resources"
-                                  style={{color: "white", fontSize:20, fontFamily:"Lucida Console"}}>Resources</Nav.Link>
+                                  className="FontStuff">Resources</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

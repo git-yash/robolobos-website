@@ -1,10 +1,27 @@
 .parallax {
-    background-image: url("../../../public/largeRoboticsLogo.jpg");
+    background-image: url("../../../public/stockWorking.jpg");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.NameH1 {
+    width: 1345px;
+    text-align: center;
+    margin: auto;
+    height: 100px;
+}
+
+.AboutP {
+    width: 1345px;
+    margin: auto;
+    text-align: center;
+    text-align-all: center;
+    font-size: 30px;
+    color: white;
+    transform: translate(0%, 300%);
 }
 
 .parallax h1 {
@@ -14,11 +31,11 @@
     font-size: 100px;
     color: white;
     transform: translate(0%, 180%);
-    background-color: #12471A;
+    #background-color: #12471A;
 }
 
 h1, h2, h3, p {
-    font-family: "Lucida Console", sans-serif;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 .sponsorCardContainer {
@@ -29,7 +46,7 @@ h1, h2, h3, p {
     width: 100%;
     align-items: center;
     padding-top: 50px;
-    background-color: #12471A;
+    background-color: black;
 }
 
 .sponsorH1 {
@@ -37,17 +54,18 @@ h1, h2, h3, p {
     color: white;
     padding: 0;
     font-size: 5px;
+    height: 20px;
     text-anchor: middle;
     vertical-align: text-top;
-    background-color: black;
+    #background-color: black;
 }
 
 .sponsorDiv {
     height: 800px;
-    background-color: #12471A;
+    background-color: black;
 }
 
 .aboutDiv {
-    height: 1000px;
+    height: 500px;
     background-color: #12471A;
 }

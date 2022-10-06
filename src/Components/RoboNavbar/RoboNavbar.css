@@ -1,0 +1,31 @@
+.Navbar {
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 44px;
+
+    background-color: black;
+
+}
+
+.NavDropdown {
+    background-color: black;
+}
+
+.FontStuff1 {
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+    color: white;
+    font-size: 35px;
+}
+
+.FontStuff {
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
