@@ -69,3 +69,25 @@ h1, h2, h3, p {
     height: 500px;
     background-color: #12471A;
 }
+
+.imageCarousel {
+    height: 1000px;
+    background-color: #12471A;
+}
+
+.centerContainer {
+    height: 200px;
+    align-content: center;
+    padding-left: 22%;
+    padding-top: 2%;
+    horiz-align: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+.center {
+    height: auto;
+    width: auto;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 30px;
+}
