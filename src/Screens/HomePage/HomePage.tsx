@@ -31,7 +31,9 @@ const HomePage = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <body>
                 <div className="parallax">
-                    <h1 className="NameH1">CPHS <br/> Robolobos</h1>
+                    <h1 className="NameH1">CPHS Robotics</h1>
+                    <div style={{padding: 50}}></div>
+                    <h1 className="smallNameH1"> The Robolobos</h1>
 
                     <div style={{padding: 240}}></div>
 
@@ -52,10 +54,10 @@ const HomePage = () => {
 
                     {/*<div style={{padding: 100}}></div>*/}
 
-                    <div className="aboutDiv">
-                        <h1 className="sponsorH1" style={{fontSize: 53, paddingBottom:0, height: 10}}>The Teams</h1>
-                        <div style={{padding: 50}}></div>
-                        <h3 style={{textAlign: 'center', color: 'white', fontSize: 32, width: 1200, paddingLeft: 300, paddingTop: 0}}>
+                    <div className="aboutDiv figure">
+                        <h1 className="sponsorH1" style={{fontSize: 60, fontWeight:"bold", paddingBottom:0, paddingTop:50, height: 10}}>The Teams</h1>
+                        <div style={{padding: 60}}></div>
+                        <h3 className="teamText">
                             We have two teams FRC and FTC and some other text
                         </h3>
                         <div className="centerContainer">
@@ -66,6 +68,25 @@ const HomePage = () => {
                     </div>
 
                     <div style={{padding: 100}}></div>
+
+                    <div className="aboutDiv">
+                        <h1 style={{fontSize: 60, fontWeight: "bold", paddingTop:30, height: 20}}>
+                            About Us
+                        </h1>
+                        <div style={{padding: 100}}></div>
+                        <img
+                            src="/stockWorking.jpg"
+                            width="1650"
+                            height="800"
+                            className="d-inline-block align-top img"
+                            alt="Robolobos logo"
+                        />
+                        <h1 style={{fontSize:25}}>
+                            About Us About UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout Us
+                        </h1>
+                    </div>
+
+                    <div style={{padding: 500}}></div>
 
                     <div className="imageCarousel">
                         <h1>Image Carousel</h1>
