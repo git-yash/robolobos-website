@@ -1,6 +1,9 @@
-import * as React from "react";
+import React from 'react';
 import "./HomePage.css";
-import ProfileCard from "../../Components/ProfileCard/ProfileCard";
+//import ProfileCard from "../../Components/ProfileCard/ProfileCard";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 
 const HomePage = () => {
 
@@ -88,8 +91,26 @@ const HomePage = () => {
 
                     <div style={{padding: 500}}></div>
 
+
                     <div className="imageCarousel">
-                        <h1>Image Carousel</h1>
+                        <div style={{padding: 100}}></div>
+
+                        <Carousel>
+                            <div>
+                                <img src="/stockWorking.jpg" alt={""}/>
+                                <p className="legend">Legend 1</p>
+                            </div>
+                            <div>
+                                <img src="/stockWorking.jpg"  alt={""}/>
+                                <p className="legend">Legend 2</p>
+                            </div>
+                            <div>
+                                <img src="/stockWorking.jpg" alt={""}/>
+                                <p className="legend">Legend 3</p>
+                            </div>
+                        </Carousel>
+
+                        <div style={{padding: 100}}></div>
                     </div>
 
                     <div style={{padding: 100}}></div>
