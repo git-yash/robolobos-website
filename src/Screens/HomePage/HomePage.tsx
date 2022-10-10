@@ -27,6 +27,8 @@ const HomePage = () => {
 
     when fundrasing starts we change homepage / have pop ups
 
+    align the FTC and FRC buttons and maybe make them more interesting
+
      */
 
     return (
@@ -58,15 +60,15 @@ const HomePage = () => {
                     {/*<div style={{padding: 100}}></div>*/}
 
                     <div className="aboutDiv figure">
-                        <h1 className="sponsorH1" style={{fontSize: 60, fontWeight:"bold", paddingBottom:0, paddingTop:50, height: 10}}>The Teams</h1>
+                        <h1 className="teamH1" style={{fontSize: 60, fontWeight:"bold", paddingBottom:0, paddingTop:50, height: 10}}>The Teams</h1>
                         <div style={{padding: 60}}></div>
                         <h3 className="teamText">
                             We have two teams FRC and FTC and some other text
                         </h3>
                         <div className="centerContainer">
-                            <button className="btn btn-lg btn-outline-primary center">First Robotics Competition</button>
+                            <button className="btn btn-lg btn-outline-primary-reverse center">First Technology Competition</button>
                             <div style={{paddingLeft: 20, paddingRight: 20, display: "inline-block"}}/>
-                            <button className="btn btn-lg btn-outline-primary center">First Technology Competition</button>
+                            <button className="btn btn-lg btn-outline-primary center">First Robotics Competition</button>
                         </div>
                     </div>
 
