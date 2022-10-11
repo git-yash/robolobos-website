@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './RoboNavbar.css'
+import React from 'react';
 
 function RoboNavbar() {
     return (
@@ -62,7 +63,9 @@ function RoboNavbar() {
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/Resources"
-                                  className="FontStuff">Resources</Nav.Link>
+                                  className="FontStuff">Resources
+                        </Nav.Link>
+                        <button style={{fontSize:15, fontWeight:"bold"}} className="btns btn btn-lg btn-outline-primary center">Donate</button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

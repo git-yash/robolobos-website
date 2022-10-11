@@ -4,14 +4,14 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 44px;
-
     background-color: black;
-
 }
 
 .NavDropdown {
     background-color: black;
 }
+
+
 
 .FontStuff1 {
     font-family: 'proxima-nova', sans-serif;
@@ -20,6 +20,13 @@
     line-height: 44px;
     color: white;
     font-size: 35px;
+}
+
+.btns {
+    height: 30% ;
+    width: 30%;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 20px;
 }
 
 .FontStuff {

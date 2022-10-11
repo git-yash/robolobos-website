@@ -91,7 +91,7 @@ const HomePage = () => {
                         </h1>
                     </div>
 
-                    <div style={{padding: 500}}></div>
+                    <div style={{padding: 100}}></div>
 
 
                     <div className="imageCarousel">
@@ -100,19 +100,19 @@ const HomePage = () => {
                         <Carousel>
                             <div>
                                 <img src="/stockWorking.jpg" alt={""}/>
-                                <p className="legend">Legend 1</p>
+                                <p className="legend">image 1</p>
                             </div>
                             <div>
                                 <img src="/stockWorking.jpg"  alt={""}/>
-                                <p className="legend">Legend 2</p>
+                                <p className="legend">image 2</p>
                             </div>
                             <div>
                                 <img src="/stockWorking.jpg" alt={""}/>
-                                <p className="legend">Legend 3</p>
+                                <p className="legend">image 3</p>
                             </div>
                         </Carousel>
 
-                        <div style={{padding: 100}}></div>
+                        <div style={{padding: 10}}></div>
                     </div>
 
                     <div style={{padding: 100}}></div>
