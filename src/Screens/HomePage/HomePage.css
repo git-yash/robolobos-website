@@ -113,17 +113,12 @@ h1, h2, h3, p, body {
 }
 
 .centerContainer {
-    height: 200px;
-    align-content: center;
-    padding-left: 24%;
-    padding-top: 2%;
-    horiz-align: center;
-    align-items: center;
-    vertical-align: center;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .aboutUsRow {
-
+    width: 100%;
 }
 
 .aboutUsColumn {
@@ -150,7 +145,6 @@ h1, h2, h3, p, body {
     color: white;
     font-size: 60px;
     font-weight: bold;
-    padding-bottom: 0;
     padding-top: 50px;
     height: 10px;
     text-anchor: middle;
@@ -161,7 +155,7 @@ h1, h2, h3, p, body {
     text-align: center;
     color: white;
     font-size: 32px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .figure {

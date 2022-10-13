@@ -101,13 +101,13 @@ const HomePage = () => {
 
                         <Carousel>
                             <div>
-                                <img src="/stockWorking.jpg" alt={""}/>
+                                <img src="/backgroundCollagejpg" alt={""}/>
                             </div>
                             <div>
-                                <img src="/stockWorking.jpg"  alt={""}/>
+                                <img src="/backgroundCollage.jpg"  alt={""}/>
                             </div>
                             <div>
-                                <img src="/stockWorking.jpg" alt={""}/>
+                                <img src="/backgroundCollage.jpg" alt={""}/>
                             </div>
                         </Carousel>
                     </div>
