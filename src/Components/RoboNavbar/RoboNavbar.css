@@ -5,6 +5,7 @@
     font-size: 15px;
     line-height: 44px;
     background-color: black;
+    border-bottom: 3px solid #1f7f2e;
 }
 
 .NavDropdown {

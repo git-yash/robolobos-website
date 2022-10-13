@@ -76,14 +76,17 @@ const HomePage = () => {
                         <h1 className="aboutH1">
                             About Us
                         </h1>
-                        <div className="imgPad">
-                            <img
-                                src="/stockWorking.jpg"
-                                width="800"
-                                height="500"
-                                className="d-inline-block align-top img"
-                                alt="Robolobos logo"
-                            />
+                        <div className="pad50"></div>
+                        <div className="aboutUsRow">
+                            <div className="aboutUsColumn">
+                                <img src="/stockWorking.jpg" alt="Snow"/>
+                            </div>
+                            <div className="aboutUsColumn">
+                                <img src="/stockWorking.jpg" alt="Forest"/>
+                            </div>
+                            <div className="aboutUsColumn">
+                                <img src="/stockWorking.jpg" alt="Mountains"/>
+                            </div>
                         </div>
                         <h1 className="aboutBodyH1">
                             A very cool team that does stuff and had 2 different teams within that compete differently and stuff. If only business would finish writing this section, so this space is filled with meaningful and inspiring text about us. Well, for now it's just my ramblings. Sadly I have to write a copious about of random text to fill this large space allocated for the task of discribing us on the main page. If you are reading this, don't there is no meaning in it, your just reading filler text. No seriously stop reading this, its just a waste of time. Alright I think this is enough placeholder text.
@@ -99,15 +102,12 @@ const HomePage = () => {
                         <Carousel>
                             <div>
                                 <img src="/stockWorking.jpg" alt={""}/>
-                                <p className="legend">image 1</p>
                             </div>
                             <div>
                                 <img src="/stockWorking.jpg"  alt={""}/>
-                                <p className="legend">image 2</p>
                             </div>
                             <div>
                                 <img src="/stockWorking.jpg" alt={""}/>
-                                <p className="legend">image 3</p>
                             </div>
                         </Carousel>
                     </div>

@@ -7,18 +7,24 @@ import './RoboNavbar.css'
 import React from 'react';
 
 function RoboNavbar() {
+    const donationWebsiteURL: string = "https://secure.qgiv.com/event/cphrobp2p"
+
+    const openDonationWebsite = (url: string) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    }
+
     return (
         <Navbar bg="#09240d" variant="dark" className="Navbar" expand="lg" sticky="top">
             <Container>
                 <Navbar.Brand href="/" className="FontStuff1">
                     <img
-                        src="/roboticsLogo.png"
-                        width="50"
-                        height="50"
+                        src="/whitewolf.png"
+                        width="80"
+                        height="60"
                         className="d-inline-block align-top"
                         alt="Robolobos logo"
                     />
-                    Robolobos
+
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -65,7 +71,7 @@ function RoboNavbar() {
                         <Nav.Link href="/Resources"
                                   className="FontStuff">Resources
                         </Nav.Link>
-                        <button style={{fontSize:15, fontWeight:"bold"}} className="btns btn btn-lg btn-outline-primary center">Donate</button>
+                        <button style={{fontSize:15, fontWeight:"bold"}} className="btns btn btn-lg btn-outline-primary-reverse center" onClick={() => openDonationWebsite(donationWebsiteURL)}>Donate</button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
