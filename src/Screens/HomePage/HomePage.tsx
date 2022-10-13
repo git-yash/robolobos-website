@@ -1,6 +1,5 @@
 import React from 'react';
 import "./HomePage.css";
-//import ProfileCard from "../../Components/ProfileCard/ProfileCard";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -31,18 +30,7 @@ const HomePage = () => {
 
      */
 
-    return (
-        <>
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <body>
-                <div className="parallax">
-                    <h1 className="NameH1">CPHS Robotics</h1>
-                    <div style={{padding: 50}}></div>
-                    <h1 className="smallNameH1"> The Robolobos</h1>
-
-                    <div style={{padding: 240}}></div>
-
-                    {/*<h1 className="sponsorH1" style={{fontSize: 53}}>Sponsors</h1>
+    {/*<h1 className="sponsorH1" style={{fontSize: 53}}>Sponsors</h1>
                     <div className="sponsorDiv">
                         <br/><br/><br/>
                         <div className="sponsorCardContainer">
@@ -57,45 +45,56 @@ const HomePage = () => {
                         </div>
                     </div>*/}
 
-                    {/*<div style={{padding: 100}}></div>*/}
+    {/*<div style={{padding: 100}}></div>*/}
+
+    return (
+        <>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <div className="parallax">
+                    <h1 className="NameH1">CPHS Robotics</h1>
+                    <div className="pad50"></div>
+                    <h1 className="smallNameH1"> The Robolobos</h1>
+
+                    <div className="pad240"></div>
 
                     <div className="aboutDiv figure">
-                        <h1 className="teamH1" style={{fontSize: 60, fontWeight:"bold", paddingBottom:0, paddingTop:50, height: 10}}>The Teams</h1>
-                        <div style={{padding: 60}}></div>
+                        <h1 className="teamH1">The Teams</h1>
+                        <div className="pad60"></div>
                         <h3 className="teamText">
                             We have two teams FRC and FTC and some other text
                         </h3>
                         <div className="centerContainer">
                             <button className="btn btn-lg btn-outline-primary-reverse center">First Technology Competition</button>
-                            <div style={{paddingLeft: 20, paddingRight: 20, display: "inline-block"}}/>
+                            <div className="buttonDiv"/>
                             <button className="btn btn-lg btn-outline-primary center">First Robotics Competition</button>
                         </div>
                     </div>
 
-                    <div style={{padding: 100}}></div>
+                    <div className="pad100"></div>
 
                     <div className="aboutDiv">
-                        <h1 style={{fontSize: 60, fontWeight: "bold", paddingTop:30, height: 20}}>
+                        <h1 className="aboutH1">
                             About Us
                         </h1>
-                        <div style={{padding: 100}}></div>
-                        <img
-                            src="/stockWorking.jpg"
-                            width="1650"
-                            height="800"
-                            className="d-inline-block align-top img"
-                            alt="Robolobos logo"
-                        />
-                        <h1 style={{fontSize:25}}>
-                            About Us About UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout UsAbout Us
+                        <div className="imgPad">
+                            <img
+                                src="/stockWorking.jpg"
+                                width="800"
+                                height="500"
+                                className="d-inline-block align-top img"
+                                alt="Robolobos logo"
+                            />
+                        </div>
+                        <h1 className="aboutBodyH1">
+                            A very cool team that does stuff and had 2 different teams within that compete differently and stuff. If only business would finish writing this section, so this space is filled with meaningful and inspiring text about us. Well, for now it's just my ramblings. Sadly I have to write a copious about of random text to fill this large space allocated for the task of discribing us on the main page. If you are reading this, don't there is no meaning in it, your just reading filler text. No seriously stop reading this, its just a waste of time. Alright I think this is enough placeholder text.
                         </h1>
                     </div>
 
-                    <div style={{padding: 100}}></div>
+                    <div className="pad100"></div>
 
 
                     <div className="imageCarousel">
-                        <div style={{padding: 100}}></div>
+                        <div className="pad20"></div>
 
                         <Carousel>
                             <div>
@@ -111,13 +110,8 @@ const HomePage = () => {
                                 <p className="legend">image 3</p>
                             </div>
                         </Carousel>
-
-                        <div style={{padding: 10}}></div>
                     </div>
-
-                    <div style={{padding: 100}}></div>
                 </div>
-            </body>
         </>
     );
 }

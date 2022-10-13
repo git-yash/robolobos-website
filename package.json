@@ -14,6 +14,7 @@
     "framer-motion": "^7.3.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
+    "react-carousel-minimal": "^1.4.1",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.4.0",
     "react-responsive-carousel": "^3.2.23",
