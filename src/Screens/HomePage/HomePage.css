@@ -62,14 +62,18 @@ h1, h2, h3, p, body {
 }
 
 .aboutDiv {
-    height: 1200px;
+    height: 1000px;
     background-color: black;
 }
 
 .imageCarousel {
-    height: 1170px;
+    height: 1000px;
     font-family: 'proxima-nova', sans-serif;
     background-color: black;
+}
+
+.carousel {
+    height: 700px;
 }
 
 .pad20 {
@@ -119,6 +123,7 @@ h1, h2, h3, p, body {
 
 .aboutUsRow {
     width: 100%;
+    position: relative;
 }
 
 .aboutUsColumn {

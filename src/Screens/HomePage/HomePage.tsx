@@ -79,13 +79,13 @@ const HomePage = () => {
                         <div className="pad50"></div>
                         <div className="aboutUsRow">
                             <div className="aboutUsColumn">
-                                <img src="/stockWorking.jpg" alt="Snow"/>
+                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamAustinCompPosters.JPG" alt="Snow"/>
                             </div>
                             <div className="aboutUsColumn">
-                                <img src="/stockWorking.jpg" alt="Forest"/>
+                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamPit.JPG" alt="Forest"/>
                             </div>
                             <div className="aboutUsColumn">
-                                <img src="/stockWorking.jpg" alt="Mountains"/>
+                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamVandycomp.JPG" alt="Mountains"/>
                             </div>
                         </div>
                         <h1 className="aboutBodyH1">
@@ -97,20 +97,24 @@ const HomePage = () => {
 
 
                     <div className="imageCarousel">
-                        <div className="pad20"></div>
+                        <div className="pad50"></div>
 
                         <Carousel>
                             <div>
-                                <img src="/backgroundCollagejpg" alt={""}/>
+                                <img src="/teamVandycomp.JPG" alt={""}/>
                             </div>
                             <div>
-                                <img src="/backgroundCollage.jpg"  alt={""}/>
+                                <img src="/teamPit.JPG"  alt={""}/>
                             </div>
                             <div>
-                                <img src="/backgroundCollage.jpg" alt={""}/>
+                                <img src="/teamAustinCompPosters.JPG" alt={""}/>
                             </div>
                         </Carousel>
                     </div>
+
+                    <div className="pad50"></div>
+
+
                 </div>
         </>
     );
