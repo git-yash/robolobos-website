@@ -88,6 +88,7 @@ const HomePage = () => {
                                 <img style={{ maxWidth: "100%", maxHeight: 350 }} src="/teamVandycompSmall.jpg" alt="aboutUsPhoto3"/>
                             </div>
                         </div>
+
                         <h1 className="aboutBodyH1">
                             A very cool team that does stuff and had 2 different teams within that compete differently and stuff. If only business would finish writing this section, so this space is filled with meaningful and inspiring text about us. Well, for now it's just my ramblings. Sadly I have to write a copious about of random text to fill this large space allocated for the task of discribing us on the main page. If you are reading this, don't there is no meaning in it, your just reading filler text. No seriously stop reading this, its just a waste of time. Alright I think this is enough placeholder text.
                         </h1>
