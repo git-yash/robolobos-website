@@ -79,13 +79,13 @@ const HomePage = () => {
                         <div className="pad50"></div>
                         <div className="aboutUsRow">
                             <div className="aboutUsColumn">
-                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamAustinCompPosters.JPG" alt="Snow"/>
+                                <img style={{ maxWidth: "100%", maxHeight: 350 }} src="/teamAustinCompPostersSmall.jpg" alt="aboutUsPhoto1"/>
                             </div>
                             <div className="aboutUsColumn">
-                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamPit.JPG" alt="Forest"/>
+                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamPitSmall.jpg" alt="aboutUsPhoto2"/>
                             </div>
                             <div className="aboutUsColumn">
-                                <img style={{ maxWidth: "100%", maxHeight: 400 }} src="/teamVandycomp.JPG" alt="Mountains"/>
+                                <img style={{ maxWidth: "100%", maxHeight: 350 }} src="/teamVandycompSmall.jpg" alt="aboutUsPhoto3"/>
                             </div>
                         </div>
                         <h1 className="aboutBodyH1">

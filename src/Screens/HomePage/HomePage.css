@@ -15,7 +15,7 @@
     margin: auto;
     font-size: 850%;
     height: 100px;
-    padding-top: 0;
+    padding-top: 150px;
 }
 
 .smallNameH1 {
@@ -24,6 +24,7 @@
     margin: auto;
     font-size: 475%;
     height: 80%;
+    padding-top: 50px;
 }
 
 .aboutH1 {
@@ -38,11 +39,11 @@
     text-align-all: center;
     text-anchor: middle;
     color: white;
-    transform: translate(0%, 180%);
 }
 
 h1, h2, h3, p, body {
     font-family: 'proxima-nova', sans-serif;
+    padding-top: 0;
 }
 
 .sponsorCardContainer {
@@ -62,7 +63,7 @@ h1, h2, h3, p, body {
 }
 
 .aboutDiv {
-    height: 1000px;
+    height: 800px;
     background-color: black;
 }
 
@@ -121,21 +122,25 @@ h1, h2, h3, p, body {
     padding-top: 40px;
 }
 
-.aboutUsRow {
-    width: 100%;
-    position: relative;
-}
-
 .aboutUsColumn {
     float: left;
     width: 33.33%;
     padding: 5px;
 }
 
+.aboutUsRow::after {
+    content: "";
+    line-height: 0;
+    clear: both;
+    display: block;
+}
+
 .aboutBodyH1 {
     font-size: 25px;
     padding-left: 65px;
     padding-right: 65px;
+    padding-top: 65px;
+    font-weight: bold;
 }
 
 .center {
@@ -160,7 +165,6 @@ h1, h2, h3, p, body {
     text-align: center;
     color: white;
     font-size: 32px;
-    padding-top: 50px;
 }
 
 .figure {
